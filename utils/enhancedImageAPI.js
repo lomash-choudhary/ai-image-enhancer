@@ -1,18 +1,6 @@
 import axios from "axios";
 
-// {status: 200, message: 'success', data: {…}}
-// data
-// :
-// {task_id: '81c513ee-d01e-4ff5-b2a8-c1d55ba0e6cc'}
-// message
-// :
-// "success"
-// status
-// :
-// 200
-
 const API_KEY = import.meta.env.VITE_API_KEY;
-console.log(API_KEY);
 const BASE_URL_OF_API_APP = import.meta.env.VITE_BASEURL_OF_API;
 
 export const enhancedImageApi = async (file) => {
